@@ -1,0 +1,28 @@
+{
+  "name": "jvleeuwen/broadsoft",
+  "description": "Laravel Broadsoft intergration",
+  "keywords": ["laravel", "broadsoft", "intergration", "jellevl", "jvleeuwen", "routit", "xsi", "callcenter"],
+  "homepage": "https://github.com/jellevl",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jelle van Leeuwen",
+      "email": "info@jellevl.nl"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "illuminate/config": "~5.0",
+    "illuminate/support": "~5.0",
+    "orchestra/parser": "^3.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Jvleeuwen\\Testpackage\\": "src/"
+    }
+  },
+  "minimum-stability": "dev"
+}
